@@ -1,0 +1,186 @@
+{
+  "yes": "نعم",
+  "@yes": {},
+  "add": "إضافة",
+  "@add": {},
+  "account_delete_message": "هل انت متأكد انك تريد حذف حسابك؟\nإذا كان هناك سبب محدد ، يرجى المشاركة بالأسفل",
+  "@account_delete_message": {},
+  "reason": "السبب",
+  "@reason": {},
+  "okay": "حسناً",
+  "@okay": {},
+  "create": "إنشاء",
+  "@create": {
+    "description": "An action to create"
+  },
+  "applyButtonText": "طبق",
+  "@applyButtonText": {},
+  "next_label": "التالى",
+  "@next_label": {
+    "description": "A label on a button that says 'Next', pressing the button takes the user to the next screen."
+  },
+  "go_back_to_top": "العودة لأعلى",
+  "save": "حفظ",
+  "save_confirmation": "هل أنت متأكد أنك تريد المغادرة؟",
+  "skip": "Skip",
+  "cancel": "إلغاء",
+  "@cancel": {},
+  "ignore": "تجاهل",
+  "@ignore": {
+    "description": "'Ignore' button. Typical use case in combination with 'OK' and 'Cancel' buttons."
+  },
+  "close": "إغلق",
+  "@close": {},
+  "no": "لا",
+  "@no": {},
+  "stop": "توقّف",
+  "@stop": {},
+  "finish": "Finish",
+  "@finish": {},
+
+  "error": "حدث خطأ ما",
+  "@error": {},
+  "error_occurred": "حدث خطأ",
+  "@error_occurred": {},
+  "learnMore": "لمعرفة المزيد",
+  "@learnMore": {},
+  "unknown": "غير معروف",
+  "looking_for": "البحث عن",
+  "incorrect_credentials": "اسم المستخدم أو كلمة المرور غير صحيحة.",
+  "login": "اسم المستخدم",
+  "@login": {
+    "description": "Text field hint: unified name for either username or e-mail address"
+  },
+  "login_page_username_or_email": "الرجاء إدخال اسم المستخدم أو البريد الإلكتروني",
+  "login_page_password_error_empty": "برجاء إخال كلمة مرور",
+  "create_account": "إنشاء حساب",
+  "@create_account": {
+    "description": "Button label: Opens a page where a new user can register"
+  },
+  "sign_in": "تسجيل الدخول",
+  "@sign_in": {
+    "description": "Button label: For sign in"
+  },
+  "sign_in_mandatory": "For that feature we need you to sign in.",
+  "@sign_in_mandatory": {
+    "description": "Error message: for some features like product edits you need to be signed in"
+  },
+  "sign_out": "تسجيل الخروج",
+  "@sign_out": {
+    "description": "Button label: For sign out"
+  },
+  "sign_out_confirmation": "هل أنت متأكد من أنك تريد تسجيل الخروج؟",
+  "@sign_out_confirmation": {
+    "description": "Pop up title: Reassuring if the user really want to sign out"
+  },
+  "password": "كلمة المرور",
+  "forgot_password": "نسيت كلمة المرور",
+  "@forgot_password": {
+    "description": "Button label: Opens a page where a password reset e-mail can be requested"
+  },
+  "view_profile": "عرض الصفحة الشخصية",
+  "@view_profile": {
+    "description": "Button label: For to show your account"
+  },
+  "reset_password": "إعادة تعيين كلمة المرور",
+  "@reset_password": {
+    "description": "Forgot password page title"
+  },
+  "reset_password_explanation_text": "في حالة نسيت كلمة المرور، أدخل اسم المستخدم أو عنوان البريد الإلكتروني الخاص بك لتلقي تعليمات لإعادة تعيين كلمة المرور. تذكر أيضا التحقق من مجلد البريد المزعج.",
+  "username_or_email": "اسم المستخدم أو البريد الإلكتروني",
+  "@username_or_email": {
+    "description": "Text field hint for password reset"
+  },
+  "reset_password_done": "تم إرسال بريد إلكتروني مع رابط لإعادة تعيين كلمة المرور الخاصة بك إلى عنوان البريد الإلكتروني المرتبط بحسابك. تحقق أيضا من البريد المزعج الخاص بك",
+  "send_reset_password_mail": "تغيير كلمة المرور",
+  "@send_reset_password_mail": {
+    "description": "Button label: Submit the password reset e-mail request"
+  },
+  "enter_some_text": "برجاء إدخال نص",
+  "@enter_some_text": {
+    "description": "Error when a required text field is empty"
+  },
+  "sign_up_page_title": "تسجيل",
+  "@sign_up_page_title": {
+    "description": "Header"
+  },
+  "sign_up_page_action_button": "تسجيل",
+  "@sign_up_page_action_button": {
+    "description": "Button for signing up"
+  },
+  "sign_up_page_action_doing_it": "تسجيل الدخول…",
+  "@sign_up_page_action_doing_it": {
+    "description": "Progress indicator dialog during the actual signing up process"
+  },
+  "sign_up_page_action_ok": "تهانينا! تم إنشاء حسابك للتو.",
+  "sign_up_page_display_name_hint": "اﻹسم",
+  "sign_up_page_display_name_error_empty": "يرجاء إدخال الإسم العرض الذي تود استخدامه",
+  "sign_up_page_email_hint": "البريد الإلكتروني",
+  "sign_up_page_email_error_empty": "البريد الإلكتروني مطلوب",
+  "sign_up_page_email_error_invalid": "بريد إلكتروني غير صالح",
+  "sign_up_page_username_hint": "Username: Publicly visible",
+  "sign_up_page_username_error_empty": "برجاء إدخال اسم المستخدم",
+  "sign_up_page_username_error_invalid": "برجاء إدخال اسم مستخدم صحيح",
+  "sign_up_page_username_description": "Username cannot contains spaces, caps or special characters.",
+  "sign_up_page_username_length_invalid": "Username cannot exceed {value} characters",
+  "@sign_up_page_username_length_invalid": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "show_password": "اظهار كلمة المرور",
+
+  "sign_up_page_password_hint": "كلمة المرور",
+  "sign_up_page_password_error_empty": "برجاء إخال كلمة مرور",
+  "sign_up_page_password_error_invalid": "برجاء إدخال كلمة مرور (6 أحرف على الأقل)",
+  "sign_up_page_confirm_password_hint": "تأكيد كلمة المرور",
+  "sign_up_page_confirm_password_error_empty": "برجاء تأكيد كلمة المرور",
+  "sign_up_page_confirm_password_error_invalid": "كلمة السر غير مطابقة",
+  "sign_up_page_agree_text": "I agree to the Open Food Facts",
+  "@sign_up_page_agree_text": {
+    "description": "I agree to the Open Food Facts is followed by sign_up_page_terms_text"
+  },
+  "sign_up_page_terms_text": "terms of use and contribution",
+  "@sign_up_page_terms_text": {
+    "description": "terms of use and contribution is preceded by sign_up_page_agree_text"
+  },
+  "sign_up_page_agree_url": "https://world-en.openfoodfacts.org/terms-of-use\n",
+  "@sign_up_page_agree_url": {
+    "description": "Please insert the right url here. Go to the Open Food Facts homepage, switch to your country and then on the bottom left footer is Terms of use from which the url should be taken"
+  },
+
+  "sign_up_page_agree_error_invalid": "عند إنشاء حساب، الموافقة على شروط الاستخدام إلزامية، ولكن من الممكن تقديم مساهمات مجهولة من خلال التطبيق",
+  "@sign_up_page_agree_error_invalid": {
+    "description": "Error message: You have to agree to the terms-of-use (A checkbox to do so is above this error message)"
+  },
+  "sign_up_page_producer_checkbox": "أنا منتج للغذاء",
+  "sign_up_page_producer_hint": "المنتِج / العلامة التجارية",
+  "sign_up_page_producer_error_empty": "برجاء إدخال اسم منتِج أو اسم علامة تجارية",
+  "sign_up_page_subscribe_checkbox": "I'd like to subscribe to the Open Food Facts newsletter (You can unsubscribe from it at any time)",
+  "sign_up_page_user_name_already_used": "The user name already exists, please choose another username.",
+  "sign_up_page_email_already_exisكts": "already exists, login to the account or try with another email.",
+  "sign_up_page_provide_valid_email": "Please provide a valid email address.",
+  "@Settings": {},
+  "settingsTitle": "الإعدادات",
+  "@settingsTitle": {
+    "description": "The title of the Settings page"
+  },
+  "darkmode": "مظهر",
+  "@darkmode": {
+    "description": "The name of the darkmode on off switch"
+  },
+  "darkmode_dark": "الوضع اليلي",
+  "@darkmode_dark": {
+    "description": "Indicator inside the darkmode switch (dark)"
+  },
+  "darkmode_light": "الوضع نهاري",
+  "@darkmode_light": {
+    "description": "Indicator inside the darkmode switch (light)"
+  },
+  "darkmode_system_default": "الإعداد الافتراضي للنظام",
+  "@darkmode_system_default": {
+    "description": "Indicator inside the darkmode switch (system default)"
+  }
+}

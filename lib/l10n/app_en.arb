@@ -1,0 +1,185 @@
+{
+  "yes": "Yes",
+  "@yes": {},
+  "add": "Add",
+  "@add": {},
+  "account_delete_message": "Are you sure you want to delete your account?\nIf there is a specific reason, please share below",
+  "@account_delete_message": {},
+  "reason": "Reason",
+  "@reason": {},
+  "okay": "Okay",
+  "@okay": {},
+  "create": "Create",
+  "@create": {
+    "description": "An action to create"
+  },
+  "applyButtonText": "Apply",
+  "@applyButtonText": {},
+  "next_label": "Next",
+  "@next_label": {
+    "description": "A label on a button that says 'Next', pressing the button takes the user to the next screen."
+  },
+  "go_back_to_top": "Go back to top",
+  "save": "Save",
+  "save_confirmation": "Are you sure you want to save?",
+  "skip": "Skip",
+  "cancel": "Cancel",
+  "@cancel": {},
+  "ignore": "Ignore",
+  "@ignore": {
+    "description": "'Ignore' button. Typical use case in combination with 'OK' and 'Cancel' buttons."
+  },
+  "close": "Close",
+  "@close": {},
+  "no": "No",
+  "@no": {},
+  "stop": "Stop",
+  "@stop": {},
+  "finish": "Finish",
+  "@finish": {},
+  "learnMore": "Learn more",
+  "@learnMore": {},
+  "unknown": "Unknown",
+  "looking_for": "Looking for",
+  "@looking_for": {
+    "description": "Looking for: BARCODE"
+  },
+  "incorrect_credentials": "Incorrect username or password.",
+  "login": "Login",
+  "@login": {
+    "description": "Text field hint: unified name for either username or e-mail address"
+  },
+  "login_page_username_or_email": "Please enter username or e-mail",
+  "login_page_password_error_empty": "Please enter a password",
+  "create_account": "Create account",
+  "@create_account": {
+    "description": "Button label: Opens a page where a new user can register"
+  },
+  "sign_in": "Sign in",
+  "@sign_in": {
+    "description": "Button label: For sign in"
+  },
+  "sign_in_mandatory": "For that feature we need you to sign in.",
+  "@sign_in_mandatory": {
+    "description": "Error message: for some features like product edits you need to be signed in"
+  },
+  "sign_out": "Sign out",
+  "@sign_out": {
+    "description": "Button label: For sign out"
+  },
+  "sign_out_confirmation": "Are you sure you want to sign out?",
+  "@sign_out_confirmation": {
+    "description": "Pop up title: Reassuring if the user really want to sign out"
+  },
+  "password": "Password",
+  "forgot_password": "Forgot password",
+  "@forgot_password": {
+    "description": "Button label: Opens a page where a password reset e-mail can be requested"
+  },
+  "view_profile": "View profile",
+  "@view_profile": {
+    "description": "Button label: For to show your account"
+  },
+  "reset_password": "Reset password",
+  "@reset_password": {
+    "description": "Forgot password page title"
+  },
+  "reset_password_explanation_text": "In case of a forgotten password, enter your username or e-mail address to receive instructions for a password reset. Also, remember to check the Spam folder.",
+  "username_or_email": "Username or e-mail",
+  "@username_or_email": {
+    "description": "Text field hint for password reset"
+  },
+  "reset_password_done": "An e-mail with a link to reset your password has been sent to the e-mail address associated with your account. Also check your spam",
+  "send_reset_password_mail": "Change password",
+  "@send_reset_password_mail": {
+    "description": "Button label: Submit the password reset e-mail request"
+  },
+  "enter_some_text": "Please enter some text",
+  "@enter_some_text": {
+    "description": "Error when a required text field is empty"
+  },
+  "sign_up_page_title": "Sign Up",
+  "@sign_up_page_title": {
+    "description": "Header"
+  },
+  "sign_up_page_action_button": "Sign Up",
+  "@sign_up_page_action_button": {
+    "description": "Button for signing up"
+  },
+  "sign_up_page_action_doing_it": "Signing up…",
+  "@sign_up_page_action_doing_it": {
+    "description": "Progress indicator dialog during the actual signing up process"
+  },
+  "sign_up_page_action_ok": "Congratulations! Your account has just been created.",
+  "sign_up_page_display_name_hint": "Name",
+  "sign_up_page_display_name_error_empty": "Please enter the display name you want to use",
+  "sign_up_page_email_hint": "E-mail",
+  "sign_up_page_email_error_empty": "E-mail is required",
+  "sign_up_page_email_error_invalid": "Invalid e-mail",
+  "sign_up_page_username_hint": "Username: Publicly visible",
+  "sign_up_page_username_error_empty": "Please enter a username",
+  "sign_up_page_username_error_invalid": "Please enter a valid username",
+  "sign_up_page_username_description": "Username cannot contains spaces, caps or special characters.",
+  "sign_up_page_username_length_invalid": "Username cannot exceed {value} characters",
+  "@sign_up_page_username_length_invalid": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "sign_up_page_password_hint": "Password",
+  "sign_up_page_password_error_empty": "Please enter a password",
+  "sign_up_page_password_error_invalid": "Please enter a valid password (at least 6 characters)",
+  "sign_up_page_confirm_password_hint": "Confirm Password",
+  "sign_up_page_confirm_password_error_empty": "Please confirm the password",
+  "sign_up_page_confirm_password_error_invalid": "Passwords don't match",
+  "sign_up_page_agree_text": "I agree to the Open Food Facts",
+  "@sign_up_page_agree_text": {
+    "description": "I agree to the Open Food Facts is followed by sign_up_page_terms_text"
+  },
+  "sign_up_page_terms_text": "terms of use and contribution",
+  "@sign_up_page_terms_text": {
+    "description": "terms of use and contribution is preceded by sign_up_page_agree_text"
+  },
+  "sign_up_page_agree_url": "https://world-en.openfoodfacts.org/terms-of-use",
+  "@sign_up_page_agree_url": {
+    "description": "Please insert the right url here. Go to the Open Food Facts homepage, switch to your country and then on the bottom left footer is Terms of use from which the url should be taken"
+  },
+
+  "sign_up_page_agree_error_invalid": "When creating an account, agreeing to the Terms of Use is mandatory, however, anonymous contributions can still be made through the app",
+  "@sign_up_page_agree_error_invalid": {
+    "description": "Error message: You have to agree to the terms-of-use (A checkbox to do so is above this error message)"
+  },
+  "sign_up_page_producer_checkbox": "I am a food producer",
+  "sign_up_page_producer_hint": "Producer/brand",
+  "sign_up_page_producer_error_empty": "Please enter a producer or a brand name",
+  "sign_up_page_subscribe_checkbox": "I'd like to subscribe to the Open Food Facts newsletter (You can unsubscribe from it at any time)",
+  "sign_up_page_user_name_already_used": "The user name already exists, please choose another username.",
+  "sign_up_page_email_already_exists": "already exists, login to the account or try with another email.",
+  "sign_up_page_provide_valid_email": "Please provide a valid email address.",
+  "sign_up_page_server_busy": "We are deeply sorry, we have some technical difficulties to create your account. Please try again later.",
+  "show_password": "show password",
+
+  "@Settings": {},
+  "settingsTitle": "Settings",
+  "@settingsTitle": {
+    "description": "The title of the Settings page"
+  },
+  "darkmode": "Theme",
+  "@darkmode": {
+    "description": "The name of the darkmode on off switch"
+  },
+  "darkmode_dark": "Dark",
+  "@darkmode_dark": {
+    "description": "Indicator inside the darkmode switch (dark)"
+  },
+  "darkmode_light": "Light",
+  "@darkmode_light": {
+    "description": "Indicator inside the darkmode switch (light)"
+  },
+  "darkmode_system_default": "System default",
+  "@darkmode_system_default": {
+    "description": "Indicator inside the darkmode switch (system default)"
+  }
+}
