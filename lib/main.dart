@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:form_builder_validators/localization/l10n.dart';
 import 'package:medica/const/colors.dart';
+import 'package:medica/ui/custom_scheme_color.dart';
 import 'package:medica/ui/pages/user_management/sign_in_page.dart';
 
 void main() {
@@ -14,16 +16,21 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: primary),
+        colorScheme: CustomSchemeColor().lightColorScheme,
         useMaterial3: true,
       ),
-      // locale: const Locale('ar'),
-      localizationsDelegates: AppLocalizations.localizationsDelegates,
+      darkTheme: ThemeData(
+          colorScheme: CustomSchemeColor().darkColorScheme, useMaterial3: true),
+      locale: const Locale('ar'),
+      localizationsDelegates: const [
+        FormBuilderLocalizations.delegate,
+        ...AppLocalizations.localizationsDelegates
+      ],
       supportedLocales: AppLocalizations.supportedLocales,
       home: const SignInPage(),
     );
   }
 }
-

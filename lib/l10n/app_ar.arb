@@ -112,6 +112,24 @@
   "@sign_up_page_action_doing_it": {
     "description": "Progress indicator dialog during the actual signing up process"
   },
+  "sign_up_page_first_name_hint": "الإسم الأول",
+  "sign_up_page_first_name_error_empty": "برجاء ادخل الإسمك الأول",
+  "sign_up_page_last_name_hint": "الإسم الأخير",
+  "sign_up_page_last_name_error_empty": "برجاء ادخل الإسمك الأخير",
+  "sign_up_page_address_hint": "العنوان",
+  "sign_up_page_address_error_empty": "برجاء ادخل العنوانك",
+  "sign_up_page_gender_hint": "النوع",
+  "sign_up_page_gender_error_empty": "برجاء اختر النوعك",
+
+  "sign_up_page_male": "ذكر",
+  "sign_up_page_female": "انثى",
+  "sign_up_page_birthday_hint": "تاريخ الميلاد",
+  "sign_up_page_birthday_error_empty": "برجاء اختر تاريخ الميلادك",
+  "sign_up_page_phone_hint": "رقم المحمول",
+  "sign_up_page_phone_error_empty": "برجاء ادخل رقمك المحمول",
+  "sign_up_page_phone_error_number": "برجاء ادخل رقم المحمول يزيد عن 8 أرقام",
+
+
   "sign_up_page_action_ok": "تهانينا! تم إنشاء حسابك للتو.",
   "sign_up_page_display_name_hint": "اﻹسم",
   "sign_up_page_display_name_error_empty": "يرجاء إدخال الإسم العرض الذي تود استخدامه",

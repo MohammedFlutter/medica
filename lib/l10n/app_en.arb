@@ -110,6 +110,26 @@
   "@sign_up_page_action_doing_it": {
     "description": "Progress indicator dialog during the actual signing up process"
   },
+
+  "sign_up_page_first_name_hint": "First name",
+  "sign_up_page_first_name_error_empty": "First name is required",
+  "sign_up_page_last_name_hint": "List name",
+  "sign_up_page_last_name_error_empty": "List name is required",
+  "sign_up_page_address_hint": "Address",
+  "sign_up_page_address_error_empty": "Address is required",
+  "sign_up_page_gender_hint": "Gender",
+  "sign_up_page_gender_error_empty": "gender is required",
+
+  "sign_up_page_male": "Male",
+  "sign_up_page_female": "Female",
+  "sign_up_page_birthday_hint": "Birthday",
+  "sign_up_page_birthday_error_empty": "Birthday is required",
+  "sign_up_page_phone_hint": "Phone",
+  "sign_up_page_phone_error_empty": "Phone is required",
+  "sign_up_page_phone_error_number": "Please enter numbers of your phone",
+
+
+
   "sign_up_page_action_ok": "Congratulations! Your account has just been created.",
   "sign_up_page_display_name_hint": "Name",
   "sign_up_page_display_name_error_empty": "Please enter the display name you want to use",

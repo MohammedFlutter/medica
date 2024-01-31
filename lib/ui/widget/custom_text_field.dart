@@ -5,10 +5,10 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 enum TextFieldType { plainText, password }
 
 class CustomTextField extends StatefulWidget {
-
   const CustomTextField({
     super.key,
     required this.name,
+    required this.label,
     this.keyboardType,
     this.initialValue,
     this.type = TextFieldType.plainText,
@@ -17,9 +17,11 @@ class CustomTextField extends StatefulWidget {
     this.autofillHints,
     this.autofocus,
     this.focusNode,
-    this.onFieldSubmitted,  this.textInputAction,
+    this.onFieldSubmitted,
+    this.textInputAction,
   });
 
+  final String label;
   final String name;
   final TextFieldType type;
   final TextInputType? keyboardType;
@@ -56,12 +58,13 @@ class _CustomTextFieldState extends State<CustomTextField> {
       autofocus: widget.autofocus ?? false,
       focusNode: widget.focusNode,
       onSubmitted: widget.onFieldSubmitted,
-      textInputAction:widget.textInputAction,
+      textInputAction: widget.textInputAction,
+      onTapOutside: (e) => FocusManager.instance.primaryFocus?.unfocus(),
       obscureText: _obscureText,
       decoration: InputDecoration(
         prefixIcon: widget.prefixIcon,
         suffixIcon: buildVisibilityIcon(context),
-        labelText: widget.name,
+        labelText: widget.label,
         // border: const OutlineInputBorder()
       ),
     );
